@@ -1,6 +1,6 @@
 'use client';
 
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Select from 'react-select';
 import { useDispatch, useSelector } from 'react-redux';
 import { setLanguage } from '../redux/slices/languageSlice';
@@ -21,19 +21,28 @@ const LanguageSwitcher = () => {
   const dispatch = useDispatch();
   const currentLang = useSelector((state) => state.language.language);
 
+  // عند تحميل الكمبوننت: ضبط اللغة والاتجاه بناءً على الـ Redux state أو localStorage
+  useEffect(() => {
+    // نحاول نقرأ اللغة من localStorage فقط في الـ client
+    const savedLang = localStorage.getItem('language') || currentLang || 'en';
+
+    dispatch(setLanguage(savedLang));
+    i18n.changeLanguage(savedLang);
+    document.documentElement.dir = savedLang === 'ar' ? 'rtl' : 'ltr';
+  }, [dispatch]);
+
   const handleLanguageChange = (selectedOption) => {
     if (!selectedOption) return;
+
     dispatch(setLanguage(selectedOption.value));
-      i18n.changeLanguage(selectedOption.value);
-       window.location.reload();
-    };
+    i18n.changeLanguage(selectedOption.value);
+    document.documentElement.dir = selectedOption.value === 'ar' ? 'rtl' : 'ltr';
+
+    localStorage.setItem('language', selectedOption.value);
     
-  useEffect(() => {
-    // ضبط اتجاه الصفحة عند التحميل
-    const dir = currentLang === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.dir = dir;
-    i18n.changeLanguage(currentLang);
-  }, [currentLang]);    
+    // لو عايز تعيد تحميل الصفحة (reload) ممكن تستخدم، لكن مش دايمًا مطلوب:
+    // window.location.reload();
+  };
 
   return (
     <Select

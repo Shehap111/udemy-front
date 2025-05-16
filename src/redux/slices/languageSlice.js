@@ -1,11 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const storedLang = typeof window !== 'undefined' ? localStorage.getItem('language') : 'en';
-
 const languageSlice = createSlice({
   name: 'language',
   initialState: {
-    language: storedLang || 'en',
+    language: 'en',  // قيمة افتراضية
   },
   reducers: {
     setLanguage: (state, action) => {
@@ -14,8 +12,11 @@ const languageSlice = createSlice({
         localStorage.setItem('language', action.payload);
       }
     },
+    setLanguageFromStorage: (state, action) => {
+      state.language = action.payload;
+    },
   },
 });
 
-export const { setLanguage } = languageSlice.actions;
+export const { setLanguage, setLanguageFromStorage } = languageSlice.actions;
 export default languageSlice.reducer;

@@ -1,4 +1,4 @@
-'use client';
+'use client';  // لو بتستخدم Next.js App Router وتحتاج
 
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
@@ -8,30 +8,21 @@ import de from './locales/de.json';
 import es from './locales/es.json';
 import { getOptions } from './config';
 
-// نحدد اللغة قبل التهيئة
-const initialLang = localStorage.getItem('language') || 'en';
-
-// تحديد الاتجاه بناءً على اللغة
-document.documentElement.dir = initialLang === 'ar' ? 'rtl' : 'ltr';
-
+// إعداد i18n مع لغة افتراضية ثابتة (en)
 if (!i18n.isInitialized) {
   i18n
     .use(initReactI18next)
     .init({
-      ...getOptions(initialLang),
+      ...getOptions('en'),  // اللغة الافتراضية إنجليزي
       resources: {
         en: { translation: en },
         ar: { translation: ar },
         de: { translation: de },
         es: { translation: es },
       },
-      lng: initialLang,  // تعيين اللغة الافتراضية
-      fallbackLng: 'en',  // اللغة الاحتياطية
+      lng: 'en',
+      fallbackLng: 'en',
     });
 }
-
-
-
-console.log('Initial language:', i18n.language);
 
 export default i18n;
