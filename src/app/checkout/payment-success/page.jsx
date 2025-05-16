@@ -1,11 +1,12 @@
-import React from 'react'
-import PaymentSuccess from './PaymentSuccess'
+import React, { Suspense } from 'react';
+import PaymentSuccess from './PaymentSuccess';
 
-const page = () => {
+const Page = () => {
   return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <PaymentSuccess />
+    </Suspense>
+  );
+};
 
-    <PaymentSuccess/>
-)
-}
-
-export default page
+export default Page;
