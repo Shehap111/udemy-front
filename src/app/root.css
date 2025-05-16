@@ -1,0 +1,152 @@
+:root {
+    --mainBgColor: #ffffff;
+    --textColor: #1a1668;
+    --btnColor: #040134;
+    --hColor: #ffffff;
+    --pColor: #666;
+    --bgColor: #f5f7f9;
+    --mainBorder: 1px solid #8b8b8b4e;
+    --boxShadow:0 2px 6px rgba(0, 0, 0, 0.227);
+    --secondColor: #07a169;
+    --thirdColor: #ffb800;    
+}
+
+[data-theme="Dark"] {
+    --mainBgColor: #1f1f1f;
+    --hColor: #100303;
+    --textColor: #ffffff;
+    --btnColor: rgba(255, 255, 255, 0.08);
+    --hColor: #ffffff;
+    --pColor: #aba8a8;
+    --bgColor: #2e2e2e;
+    --mainBorder: 1px solid #6666664e;
+    --boxShadow: #efe4e4 1px 1px 5px;
+    --secondColor: #0084d6;
+    --thirdColor: #ffb800;
+
+}
+
+.intro_section {
+    background-image: url(../../public/img/introSections-bg.webp);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro_section .shaps .intro_shap2{
+    left: 30px;
+    bottom: 10%;
+    position: absolute;
+    width: 70px !important;
+    animation: shaps_scails 3s ease-in-out infinite;
+}
+.intro_section .shaps .intro_shap1{ 
+    width: 50px !important;
+    position: absolute;
+    right: 20%;
+    top: 40%  ;
+    animation: shaps_scails 3s ease-in-out infinite;
+}
+.intro {
+    z-index: 554;
+}
+
+.intro_section h1 {
+    font-size: 65px;
+    color: var(--btnColor);
+    margin-top: 20px;
+}
+
+.intro_section ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.intro_section ul li {
+    margin: 0px 10px;
+    color: var(--btnColor);
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease-in .3s;
+}
+
+.intro_section ul a {
+    color: var(--btnColor);
+
+}
+
+.intro_section ul li:hover {
+    opacity: .5;
+}
+
+.Scroll_To_top {
+    transition: all ease-in-out 1s;
+    animation-name: tranz2;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transition: all ease-in .3s;
+    background-color: var(--btnColor) !important;
+}
+
+.Scroll_To_top:hover {
+    opacity: .7;
+}
+
+@keyframes tranz2 {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.border_style {
+    height: 30px;
+    overflow: hidden;
+    margin: 10px 0;
+    color: #000;
+    position: relative;
+    display: inline-block !important;
+    transition: all ease-in-out .3s;
+}
+
+.border_style::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--secondColor);
+    transition: all ease-in-out .3s;
+}
+
+.border_style:hover::after {
+    width: 100%;
+}
+.border_style:hover {
+    color: var(--secondColor);
+}
+
+@keyframes shaps_scails {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}

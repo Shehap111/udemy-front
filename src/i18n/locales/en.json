@@ -1,0 +1,174 @@
+{
+"footer": {
+  "subscribeTitle": "Subscribe for Join Us!",
+  "subscribeDescription": "Subscribe to get information coupons.",
+  "placeholder": "Your email address...",
+  "subscribeButton": "Subscribe",
+  "getInTouch": "Get in touch",
+  "callUs": "Call Us 24/7 Free",
+  "address": "60, 29th Street, San Francisco, CA 94110, United States support@arostore.com",
+  "information": "Information",
+  "aboutUs": "About Us",
+  "services": "Services",
+  "shop": "Shop",
+  "contactUs": "Contact Us",
+  "privacyPolicy": "Privacy Policy",
+  "login": "Login",
+  "usefulLinks": "Useful Links",
+  "smartphones": "Smartphones",
+  "laptop": "Laptop",
+  "clothes": "Clothes",
+  "fitnessEquipment": "Fitness Equipment",
+  "campingGear": "Camping Gear",
+  "myAccount": "My account",
+  "orders": "Orders",
+  "copyRight": "© 2025 brand store. All rights reserved.",
+  "madeWith": "Made with",
+  "by": "by"
+},
+"home_section_1": {
+  "welcome": "Welcome to iStudy",
+  "headline_part1": "Discover",
+  "headline_highlight": "2700+",
+  "headline_part2": "online courses available in the World",
+  "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur totam, perspiciatis numquam laboriosam.",
+  "find_courses": "Find Courses",
+  "happy_students": "30K+ Happy Student Worldwide",
+  "satisfied_learner": "100% Satisfied Learner"
+},
+"home_section_3": {
+  "about_title": "About Us",
+  "main_heading": "A New Different Way To Improve Your Skills",
+  "main_paragraph": "Education is one of the most essential and valuable assets that an individual can possess, It plays a pivotal role in shaping",
+  "features": {
+    "flexible_classes": {
+      "title": "Flexible Classes",
+      "description": "The Flexible Classes feature allows students to customize their learning schedule"
+    },
+    "Expert_Trainers": {
+      "title": "Expert Trainers",
+      "description": "All trainers hold relevant certifications and advanced degrees, guaranteeing that you are learning from qualified experts"
+    },
+    "Build_Your_Career": {
+      "title": "Build Your Career",
+      "description": "Prepare for job interviews with mock interview sessions, feedback, and tips on how to present yourself confidently"
+    }
+  },
+  "read_more": "Read More"
+}, 
+"home_section_4": {
+  "trending_courses": "Trending Courses",
+  "find_your_course": "Find Your Course",
+  "discount": "20%",
+  "lessons_count": " Lessons",
+  "enroll_now": "Enroll Now",
+  "see_more": "See More"
+},
+"home_section_6": {
+  "news_updates": "News & Updates",
+  "latest_news": "Latest News",
+  "read_more": "Read More"
+},
+"nav_links": {
+  "home": "Home",
+  "about": "About",
+  "courses": "Courses",
+  "contact": "Contact",
+  "blog": "Blog"
+},
+"UserDropdown": {
+  "myProfile": "My Profile",
+  "myCourses": "My Courses",
+  "myWishlist": "My Wishlist",
+  "myCart": "My Cart",
+  "logout": "Logout"
+
+},
+"about_section_1": {
+  "who_we_are": {
+    "title": "Who We Are",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit."
+  },
+  "our_team": {
+    "subtitle": "A Few Words About",
+    "title": "Our Team",
+    "description": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra."
+  }
+},
+"cart":{
+  "emptyCart": "Your cart is empty.",
+  "image": "Image",
+  "courseTitle": "Course Title",
+  "instructor": "Instructor",
+  "price": "Price",
+  "actions": "Actions",
+  "remove": "Remove",
+  "clear": "Clear",
+  "checkout": "Checkout",
+  "totalPrice": "Total Price"  
+},
+"checkout": {
+  "orderDetails": "Order Details",
+  "studentName": "Student Name ",
+  "email": "Email",
+  "coursesTitle": "Courses You Are Purchasing",
+  "noCourses": "No courses in your cart.",
+  "totalAmount": "Total Amount"
+},
+"PaymentStatus": {
+  "loading": "Loading payment status...",
+  "retryMessage": "Please try again later or contact support.",
+  "thankYou": "Thank you for your purchase!",
+  "success": "Payment confirmed successfully!",
+  "error": "An error occurred while confirming payment",
+  "noConnection": "No connection to the server",
+  "setupError": "Setup error: ",
+  "errorDetails": "Error details: "
+},
+"class_room":{
+  "viewLesson": "View Lesson",
+  "quizzes": "Quizzes",
+  "startQuiz": "Start Quiz",
+  "courseIntro": "Course Introduction",
+  "instructor": "Instructor",
+  "instructorBio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore cupiditate.",
+  "resources": "Resources",
+  "levels": "Levels",
+  "lessons": "Lessons",
+  "duration": "Duration",
+  "category": "Category",
+  "language": "Language",
+  "certificate": "Certificate",
+  "add_to_cart": "Add to Cart",
+  "add_to_Wishlist": "Add to Wishlist",
+  "lessons_Page":{
+    "Lessons_in_this_Level": "Lessons in this Level"
+  },
+  "quizzes_Page":{
+    "submit_quiz": "Submit Quiz",
+    "result": "Your Result",
+    "retry": "Retry",
+    "time_is_up": "Time is up"
+  }
+  
+},
+"contact": {
+  "getInTouch": "Get in touch",
+  "teamMessage": "Our friendly team would love to hear from you.",
+  "yourName": "Your Name",
+  "yourEmail": "Your Email",
+  "yourMessage": "Your Message",
+  "send": "Send",
+  "cairoOffice": "Cairo Office",
+  "cairoAddress": "123 Cairo Egypt, AD 10160, EG",
+  "callUs": "Call Us",
+  "emailUs": "Email Us",
+  "followUs": "Follow Us"
+}
+
+
+
+
+
+
+}

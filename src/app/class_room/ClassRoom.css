@@ -1,0 +1,144 @@
+.ClassRoom{
+    padding: 70px 0;
+}
+.instructor-details img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border-top: 5px solid var(--thirdColor);
+    border-bottom: 5px solid var(--secondColor);
+    border-left: 5px solid var(--thirdColor);
+    border-right: 5px solid var(--secondColor);
+}
+.instructor-details .instructor-detailss-text{
+    margin: 0 10px;
+}
+.instructor-details{
+    display: flex;
+
+}
+.box{
+    padding: 25px   ;
+    box-shadow: var(--boxShadow);
+}
+.product_Container{
+    margin-top: -100px !important;
+}
+.livil_box{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: var(--boxShadow);
+}
+.box_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box_top p{
+    padding: 0   20px;
+}
+.box_top img{
+    border-radius: 10px;
+}
+/* lesson */
+.lesson-page-container {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+.lesson-page-row{
+    box-shadow: var(--boxShadow);
+    padding: 10px;
+    border-radius: 10px;
+}
+.lesson-sidebar {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.lesson-list-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--textColor);
+}
+
+.lesson-list-item {
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+    margin: 10px 0;
+}
+
+.lesson-list-item:hover {
+    background-color: var(--secondColor);
+    color: #fff;
+}
+
+.lesson-list-item.active {
+    background-color: var(--secondColor);
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.lesson-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.lesson-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primaryColor);
+}
+
+.lesson-video {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.lesson-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.lesson-loading {
+    font-size: 18px;
+    color: var(--secondaryColor);
+    text-align: center;
+    margin-top: 20px;
+}
+.lesson-video iframe {
+    pointer-events: none;
+}
+/* quiz */
+.quiz{
+    position: relative;
+    padding: 70px 0;
+}
+.quiz-progress{
+
+}
+.quiz-header_container{
+    padding: 25px  ;
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: sticky;
+    top:0px;
+    background-color: #fff;
+    z-index: 1000;
+}
+.quiz-progress-bar{
+    background-color: var(--secondColor);
+}
+.quiz-option{
+
+}

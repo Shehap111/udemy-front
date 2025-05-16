@@ -1,5 +1,13 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavbarWrapper from "../components/NavbarWrapper";
+import ReduxProvider from "../redux/provider";
+import 'react-toastify/dist/ReactToastify.css';
+import {ToastContainer} from "react-toastify";
+import Fotter from "../components/Fotter/Footer";
+import I18nProvider from '../i18n/i18nProvider';
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,10 +27,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <ReduxProvider>
+          <NavbarWrapper />
+            <ToastContainer />
+          <I18nProvider>{children}</I18nProvider>
+          <Fotter/>
+        </ReduxProvider>
       </body>
     </html>
   );

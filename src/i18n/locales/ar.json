@@ -1,0 +1,174 @@
+{
+"footer": {
+  "subscribeTitle": "اشترك معنا!",
+  "subscribeDescription": "اشترك للحصول على قسائم المعلومات.",
+  "placeholder": "عنوان بريدك الإلكتروني...",
+  "subscribeButton": "اشترك",
+  "getInTouch": "تواصل معنا",
+  "callUs": "اتصل بنا 24/7 مجانا",
+  "address": "60، 29th Street، سان فرانسيسكو، كاليفورنيا 94110، الولايات المتحدة support@arostore.com",
+  "information": "معلومات",
+  "aboutUs": "من نحن",
+  "services": "الخدمات",
+  "shop": "المتجر",
+  "contactUs": "اتصل بنا",
+  "privacyPolicy": "سياسة الخصوصية",
+  "login": "تسجيل الدخول",
+  "usefulLinks": "روابط مفيدة",
+  "smartphones": "الهواتف الذكية",
+  "laptop": "اللاب توب",
+  "clothes": "الملابس",
+  "fitnessEquipment": "معدات اللياقة البدنية",
+  "campingGear": "معدات التخييم",
+  "myAccount": "حسابي",
+  "orders": "الطلبات",
+  "copyRight": "© 2025 متجر العلامة التجارية. جميع الحقوق محفوظة.",
+  "madeWith": "صنع مع",
+  "by": "بواسطة"
+},
+"home_section_1": {
+  "welcome": "مرحبًا بك في iStudy",
+  "headline_part1": "اكتشف",
+  "headline_highlight": "2700+",
+  "headline_part2": "دورة تعليمية متاحة عبر الإنترنت حول العالم",
+  "paragraph": "لوريم إيبسوم هو نص شكلي يستخدم في صناعة النشر والتصميم. هذا النص مثال فقط.",
+  "find_courses": "استعرض الدورات",
+  "happy_students": "أكثر من 30 ألف طالب سعيد حول العالم",
+  "satisfied_learner": "رضا كامل 100%"
+},
+"home_section_3": {
+  "about_title": "من نحن",
+  "main_heading": "طريقة جديدة ومختلفة لتحسين مهاراتك",
+  "main_paragraph": "التعليم هو أحد أهم وأثمن الأصول التي يمكن أن يمتلكها الفرد، فهو يلعب دورًا محوريًا في تشكيل المستقبل",
+  "features": {
+    "flexible_classes": {
+      "title": "صفوف مرنة",
+      "description": "ميزة الصفوف المرنة تتيح للطلاب تخصيص جدول تعلمهم حسب رغبتهم"
+    },
+    "Expert_Trainers": {
+      "title": "مدربون خبراء",
+      "description": "جميع المدربين حاصلون على شهادات ودراجات علمية متقدمة، مما يضمن أنك تتعلم من خبراء مؤهلين"
+    },
+    "Build_Your_Career": {
+      "title": "ابنِ مستقبلك المهني",
+      "description": "استعد لمقابلات العمل من خلال جلسات تدريب وهمية، وملاحظات، ونصائح لتقديم نفسك بثقة"
+    }
+},
+  "read_more": "اقرأ المزيد"
+},
+"home_section_4": {
+  "trending_courses": "الدورات الأكثر تداولاً",
+  "find_your_course": "ابحث عن دورتك",
+  "discount": "20%",
+  "lessons_count": " دروس",
+  "enroll_now": "سجل الآن",
+  "see_more": "شاهد المزيد"
+},
+"home_section_6": {
+  "news_updates": "الأخبار والتحديثات",
+  "latest_news": "أحدث الأخبار",
+  "read_more": "اقرأ المزيد"
+},
+"nav_links": {
+  "home": "الرئيسية",
+  "about": "عن الموقع",
+  "courses": "الدورات",
+  "contact": "اتصل بنا",
+  "blog": "المدونة"
+},
+"UserDropdown": {
+  "myProfile": "ملفي الشخصي",
+  "myCourses": "دوراتي",
+  "myWishlist": "قائمتي المفضلة",
+  "logout": "تسجيل الخروج",
+  "login": "تسجيل الدخول",
+  "register": "إنشاء حساب"  
+
+},
+"about_section_1": {
+  "who_we_are": {
+    "title": "من نحن",
+    "description": "لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أديبيسينج إيليت. يخبرنا النخبة بأن التعلم ضروري ويؤثر على الشخص كثيرًا. من الضروري أن نطور التعليم ونستثمر فيه لبناء مستقبل أفضل."
+  },
+  "our_team": {
+    "subtitle": "بضع كلمات عن",
+    "title": "فريقنا",
+    "description": "نحن نؤمن بأن الفريق الجيد يصنع الفرق. لدينا مجموعة من المحترفين المتخصصين في مجالات متعددة يعملون معًا لتحقيق رؤيتنا."
+  }
+},
+"cart":{
+    "emptyCart": "عربة التسوق فارغة.",
+  "image": "الصورة",
+  "courseTitle": "عنوان الكورس",
+  "instructor": "المدرب",
+  "price": "السعر",
+  "actions": "الإجراءات",
+  "remove": "إزالة",
+  "clear": "تفريغ",
+  "checkout": "الدفع",
+  "totalPrice": "السعر الإجمالي"
+  
+},
+"checkout": {
+  "orderDetails": "تفاصيل الطلب",
+  "studentName": "اسم الطالب " ,
+  "email": "البريد الإلكتروني",
+  "coursesTitle": "الدورات التي تقوم بشرائها",
+  "noCourses": "لا توجد دورات في عربة التسوق.",
+  "totalAmount": "المبلغ الإجمالي"
+},
+"PaymentStatus": {
+  "loading": "جاري تحميل حالة الدفع...",
+  "retryMessage": "الرجاء المحاولة لاحقاً أو التواصل مع الدعم الفني.",
+  "thankYou": "شكراً لك على شرائك!",
+  "success": "تم تأكيد الدفع بنجاح!",
+  "error": "حدث خطأ أثناء تأكيد الدفع",
+  "noConnection": "لا يوجد اتصال بالخادم",
+  "setupError": "خطأ في الإعداد: ",
+  "errorDetails": "تفاصيل الخطأ: "
+},
+"class_room":{
+  "viewLesson": "عرض الدرس",
+  "quizzes": "الاختبارات",
+  "startQuiz": "ابدأ الامتحان",
+  "courseIntro": "مقدمة الدورة",
+  "instructor": "المدرب",  
+  "instructorBio": "لوريم ايبسوم دولار سيت أميت كونسيكتيتور، أديبايسينغ إيليت. لابوري كيوبيديتات.",
+  "resources": "الموارد",
+  "levels": "المستويات",
+  "lessons": "الدروس",
+  "duration": "المدة",
+  "category": "الفئة",
+  "language": "اللغة",
+  "certificate": "الشهادة",
+  "add_to_cart": "إضافة إلى السلة",  
+  "add_to_Wishlist": "إضافة إلى المفضلة",  
+  "lessons_Page":{
+    "Lessons_in_this_Level": "الدروس في هذا المستوى"
+  },
+  "quizzes_Page":{
+    "submit_quiz": "إرسال الاختبار",
+    "result": "نتيجتك",    
+    "retry": "إعادة المحاولة",
+    "time_is_up": " انتهى الوقت"
+  }
+},
+"contact": {
+  "getInTouch": "تواصل معنا",
+  "teamMessage": "فريقنا الودود يسعده سماعك.",
+  "yourName": "اسمك",
+  "yourEmail": "بريدك الإلكتروني",
+  "yourMessage": "رسالتك",
+  "send": "إرسال",
+  "cairoOffice": "مكتب القاهرة",
+  "cairoAddress": "١٢٣ القاهرة، مصر، ١٠١٦٠، EG",
+  "callUs": "اتصل بنا",
+  "emailUs": "راسلنا",
+  "followUs": "تابعنا"
+}
+
+
+
+
+
+}

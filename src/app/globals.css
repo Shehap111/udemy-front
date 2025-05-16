@@ -1,16 +1,7 @@
+@import "./root.css";
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,4 +14,87 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  height: 5000px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+body {
+  background-color: var(--mainBgColor);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--mainBgColor);
+  box-shadow: var(--boxShadow);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--textColor);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: .6;
+}
+
+img {
+  width: 100% ; 
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+.btn_style{
+  padding: 10px 30px;
+  color: var(--foreground);
+  border: 1px solid var(--secondColor);
+  border-radius: 5px;
+  background-color: var(--secondColor);
+  transition: all linear .2s;
+  
+}
+.btn_style:hover{
+  background-color: transparent;
+  color: var(--textColor);
+}
+
+@media screen and (max-width: 786px) {
+  h1 {
+    font-size: 42px !important;
+  }
+
+  h3 {
+    font-size: 24px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+    width: 100% !important;
+  }
+
+  span {
+    font-size: 14px !important;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  p {
+    width: 100% !important;
+  }
 }
