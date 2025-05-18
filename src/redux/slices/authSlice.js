@@ -1,7 +1,9 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/users";
+// const  = "http://localhost:5000/api/users";
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 // دالة تسجيل الدخول (Async Thunk)
 export const loginUser = createAsyncThunk(
@@ -9,7 +11,7 @@ export const loginUser = createAsyncThunk(
   async ({ email, password }, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        `${API_URL}/login`,
+        `${API_URL}/api/users/login`,
         { email, password },
         { withCredentials: true } // السماح للكوكيز بالتخزين تلقائيًا
       );
@@ -24,7 +26,7 @@ export const fetchUser = createAsyncThunk(
   "auth/fetchUser",
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get(`${API_URL}/profile`, {
+      const response = await axios.get(`${API_URL}/api/users/profile`, {
         withCredentials: true,
       });
       return response.data.user;
@@ -45,7 +47,7 @@ export const logoutUser = createAsyncThunk(
   "auth/logoutUser",
   async (_, { rejectWithValue }) => {
     try {
-      await axios.post(`${API_URL}/logout`, {}, { withCredentials: true });
+      await axios.post(`${API_URL}/api/users/logout`, {}, { withCredentials: true });
       return null;
     } catch (error) {
       return rejectWithValue(error?.response?.data || { message: "Logout failed" });

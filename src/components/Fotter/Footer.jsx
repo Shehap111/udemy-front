@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
 
                     <div className='col-lg-3 col-md-6'>
-                        <button className='button_class'>{t('footer.subscribeButton')}</button> {/* الترجمة */}
+                        <button className='btn_style'>{t('footer.subscribeButton')}</button> {/* الترجمة */}
                     </div>
                 </div>
             </div>

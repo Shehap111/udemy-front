@@ -29,10 +29,10 @@ return (
     <div className="col-lg-6 left_box_container">
         <div className="box">
             <div className="big_img">
-                <Image loading="lazy" width={600} height={600} src={img4} alt='Flexible Classes'/>    
+                <Image loading="lazy" width={500} height={500} src={img4} alt='Flexible Classes'/>    
             </div>         
             <div className="small_img">
-                <Image loading="lazy" width={350} height={350} src={img5} alt='Flexible Classes'/>    
+                <Image loading="lazy" width={300} height={300} src={img5} alt='Flexible Classes'/>    
             </div>
         </div>
     </div>    

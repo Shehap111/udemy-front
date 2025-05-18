@@ -8,6 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh !important;
+    overflow: hidden;
 }
 .S1_home span{
     color: var(--secondColor);
@@ -112,10 +113,10 @@
 .right_box_container  .box h5 span{
     letter-spacing: 0;
 }
-.left_box_contaner{
-    position: relative;
-    padding-top: 100px ;
+ .main_image{
+    width: 180% !important;
 }
+
 .shap_leftbox{
 position: absolute;
 top: 10%;
@@ -123,6 +124,7 @@ left: -10%;
 }
 .shap_leftbox img{
     height: 70px;
+    width: 35px !important;
 animation: floatUpDown 3s ease-in-out infinite;
 }
 .right_box_container .rightbox{
@@ -144,6 +146,7 @@ animation: floatUpDown 3s ease-in-out infinite;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 .right_box_container .rightbox .box img {
     margin: auto;
@@ -479,4 +482,32 @@ animation: floatUpDown 3s ease-in-out infinite;
     border-radius: 20px;
     border-left: 7px solid #fff;
     border-top: 7px solid #fff;
+}
+
+@media (max-width: 768px) {
+    .right_box_container .leftbox{
+        left: 2%;
+        bottom: 0;
+        top: 70%;
+    }
+    .right_box_container .leftbox .box {
+        width: 200px;
+        height: 80px;
+        transform: translate(-10px, 20px);
+    }
+    .right_box_container .rightbox{
+        width: 200px;
+        right: 5%;
+    }    
+    .shap_leftbox{
+        left: 85%;
+        top: 40%;
+    }    
+    .S3_home .left_box_container .box .small_img img{
+        width: 150px !important;
+        transform: translateX(-20px);
+    }    
+    .S3_home .right_box_container .box .btn_style{
+        width: 100%;
+    }    
 }

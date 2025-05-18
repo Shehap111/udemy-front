@@ -46,7 +46,6 @@ const UserDropdown = () => {
       <Dropdown.Menu>
         <Dropdown.Item href="/profile/edit">Profile</Dropdown.Item>
         <Dropdown.Item href="/profile/edit">My Courses</Dropdown.Item>
-        <Dropdown.Item href="/profile/edit">myWishlist</Dropdown.Item>
         <Dropdown.Item href="/settings">Settings</Dropdown.Item>
         <Dropdown.Divider />
         <Dropdown.Item onClick={handleLogout} className="text-danger">

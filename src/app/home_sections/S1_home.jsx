@@ -22,7 +22,7 @@ const S1_home = () => {
     <section className='S1_home'>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-6 left_box_contaner">
+          <div className="col-lg-6  left_box_contaner">
             <span>{t('home_section_1.welcome')}</span>
             <h3>
               {t('home_section_1.headline_part1')}
@@ -46,15 +46,15 @@ const S1_home = () => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-6 right_box_container">
-            <Image width={700} height={700} priority src={Image1} alt="Description" />
+          <div className="col-lg-6  right_box_container">
+            <Image className='main_image' width={700} height={700} priority src={Image1} alt="Description" />
             <div className="Image6">
               <Image width={250} height={250} priority src={Image6} alt="Description" />
             </div>
             <div className="rightbox">
               <div className="box">
                 <div className="images">
-                  <Image priority src={Image3} width={100} height={50}  alt="Description" />
+                  <Image priority src={Image3} width={120} height={50}  alt="Description" />
                   <Image priority src={Image4} width={70} height={50}  alt="Description" />
                 </div>
                 <h5>{t('home_section_1.happy_students')}</h5>

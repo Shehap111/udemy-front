@@ -32,7 +32,7 @@ useEffect(() => {
 return (
 <section className='S6_home S2_home article'>
 <div className="container">
-<div className="intro">
+<div className="intro mb-5">
     <span> {t('home_section_6.news_updates')} </span>
     <h3> {t('home_section_6.latest_news')} </h3>
     <Image loading="lazy" src={Image1} width={400} height={300} alt="Description" />  

@@ -2,12 +2,12 @@ import Sidebar from "./Sidebar";
 
 export default function DashboardLayout({ children }) {
   return (
-    <div className="flex h-screen">
-      {/* Sidebar ثابت */}
+    <div className="d-flex" style={{ height: "100vh" }}>
+      {/* الشريط الجانبي ثابت */}
       <Sidebar />
 
-      {/* المحتوى المتغير (حسب الصفحة) */}
-      <main className="flex-1 p-6 bg-gray-100">{children}</main>
+      {/* المحتوى المتغيّر (يختلف حسب الصفحة) */}
+      <main className="flex-grow-1 p-4 bg-light">{children}</main>
     </div>
   );
 }

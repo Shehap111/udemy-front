@@ -51,6 +51,7 @@ const { t } = useTranslation();
           <LanguageSwitcher />
 
         </div>
+
         {/* Mobile Menu Button */}
         <button onClick={toggleMenu} className="navbar-toggle">
           {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -59,12 +60,25 @@ const { t } = useTranslation();
 
       {/* Mobile Links */}
       {isOpen && (
+        <div className="container-mobile" >
+        <div className="overlay container-mobile" onClick={toggleMenu}></div>
+
         <div className="mobile-menu">
           {navLinks.map(({ name, path }) => (
-            <Link key={name} href={path} className="mobile-link">
+            <Link key={name} href={path} onClick={toggleMenu} className="mobile-link">
               {name}
             </Link>
           ))}
+          <div className="dropdown_container_phone">
+            {/*Cart icon */}
+            <Cart_icon/>          
+          {/* User Dropdown */}
+            <UserDropdown />
+          {/*Language Dropdown */}
+            <LanguageSwitcher />
+
+        </div>
+        </div>        
         </div>
       )}
     </nav>
