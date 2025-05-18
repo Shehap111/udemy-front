@@ -73,7 +73,7 @@
 /* S3_about */
 .S3_about{
     background-color: var(--mainBgColor);
-    background-image: url(../../../public/img/S3_about_bg.jpg);
+    background-image: url(../../../public/img/S3_about_bg.webp);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

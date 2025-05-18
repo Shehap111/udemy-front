@@ -1,6 +1,4 @@
 @import "./root.css";
-@import "tailwindcss";
-
 
 
 @media (prefers-color-scheme: dark) {
@@ -44,9 +42,7 @@ body {
   opacity: .6;
 }
 
-img {
-  width: 100% ; 
-}
+
 
 li {
   list-style: none;

@@ -11,7 +11,7 @@
     --thirdColor: #ffb800;    
 }
 
-[data-theme="Dark"] {
+/* [data-theme="Dark"] {
     --mainBgColor: #1f1f1f;
     --hColor: #100303;
     --textColor: #ffffff;
@@ -24,7 +24,7 @@
     --secondColor: #0084d6;
     --thirdColor: #ffb800;
 
-}
+} */
 
 .intro_section {
     background-image: url(../../public/img/introSections-bg.webp);

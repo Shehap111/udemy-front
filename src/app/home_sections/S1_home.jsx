@@ -35,7 +35,7 @@ const S1_home = () => {
               {t('home_section_1.headline_part2')}
             </h3>
             <div className="shap_leftbox">
-              <Image loading="lazy" src={Image5} alt="Description" />
+              <Image width={40} height={100} src={Image5} alt="Description" />
             </div>
             <p>{t('home_section_1.paragraph')}</p>
             <div className="foot">
@@ -47,22 +47,22 @@ const S1_home = () => {
           </div>
 
           <div className="col-lg-6 col-md-6 right_box_container">
-            <Image src={Image1} alt="Description" />
+            <Image width={700} height={700} priority src={Image1} alt="Description" />
             <div className="Image6">
-              <Image loading="lazy" src={Image6} alt="Description" />
+              <Image width={250} height={250} priority src={Image6} alt="Description" />
             </div>
-            <div className="rightbox" loading="lazy">
+            <div className="rightbox">
               <div className="box">
                 <div className="images">
-                  <Image loading="lazy" src={Image3} alt="Description" />
-                  <Image loading="lazy" src={Image4} alt="Description" />
+                  <Image priority src={Image3} width={100} height={50}  alt="Description" />
+                  <Image priority src={Image4} width={70} height={50}  alt="Description" />
                 </div>
                 <h5>{t('home_section_1.happy_students')}</h5>
               </div>
             </div>
             <div className="leftbox">
               <div className="box">
-                <Image loading="lazy" src={Image2} alt="Description" />
+                <Image width={50} height={50} priority src={Image2} alt="Description" />
                 <h5>{t('home_section_1.satisfied_learner')}</h5>
               </div>
             </div>

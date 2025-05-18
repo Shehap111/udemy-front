@@ -1,9 +1,9 @@
 import React from 'react'
 import './home.css'
 import Image from 'next/image'
-import img1 from '../../../public/img/laptop.png'
-import img2 from '../../../public/img/professional-success.png'
-import img3 from '../../../public/img/success.png'
+import img1 from '../../../public/img/laptop.webp'
+import img2 from '../../../public/img/professional-success.webp'
+import img3 from '../../../public/img/success.webp'
 import img4 from '../../../public/img/about-thumb-01.webp'
 import img5 from '../../../public/img/about-thumb-small-01.webp'
 import shape1 from '../../../public/img/about-book-shape.webp'; 
@@ -29,10 +29,10 @@ return (
     <div className="col-lg-6 left_box_container">
         <div className="box">
             <div className="big_img">
-                <Image loading="lazy" src={img4} alt='Flexible Classes'/>    
+                <Image loading="lazy" width={600} height={600} src={img4} alt='Flexible Classes'/>    
             </div>         
             <div className="small_img">
-                <Image loading="lazy" src={img5} alt='Flexible Classes'/>    
+                <Image loading="lazy" width={350} height={350} src={img5} alt='Flexible Classes'/>    
             </div>
         </div>
     </div>    
@@ -43,20 +43,20 @@ return (
             <h3> {t('home_section_3.main_heading')} </h3>
             <p> {t('home_section_3.main_paragraph')}</p>
             <ul>
-                <li className='img_cont'> <Image loading="lazy" src={img1} alt='Flexible Classes'/> </li>    
+                <li className='img_cont'> <Image width={50} height={50} loading="lazy" src={img1} alt='Flexible Classes'/> </li>    
                 <li>
                     <h5>{t('home_section_3.features.flexible_classes.title')}</h5>
                     <p> {t('home_section_3.features.flexible_classes.description')} </p>
                 </li>    
             </ul>
             <ul>
-                <li className='img_cont'> <Image loading="lazy" src={img2} alt='Flexible Classes'/> </li>    
+                <li className='img_cont'> <Image width={50} height={50} loading="lazy" src={img2} alt='Flexible Classes'/> </li>    
                 <li>
                     <h5>{t('home_section_3.features.Expert_Trainers.title')}</h5>
                     <p> {t('home_section_3.features.Expert_Trainers.description')} </p>                </li>    
             </ul>
             <ul>
-                <li className='img_cont'> <Image loading="lazy"  src={img3} alt='Flexible Classes'/> </li>    
+                <li className='img_cont'> <Image loading="lazy" width={50} height={50}  src={img3} alt='Flexible Classes'/> </li>    
                 <li>
                     <h5>{t('home_section_3.features.Build_Your_Career.title')}</h5>
                     <p> {t('home_section_3.features.Build_Your_Career.description')} </p>                </li>    

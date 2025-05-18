@@ -1,7 +1,7 @@
 'use client';
 import React, {useEffect, useState} from 'react';
 import Image from 'next/image';
-import heart from '../../../public/img/about-book-shape.webp'; // تأكد من مسار الصورة
+import heart from '../../../public/img/success.webp'; // تأكد من مسار الصورة
 import Link from 'next/link'; // استخدام Link من next
 import { useTranslation } from 'react-i18next'; // استيراد useTranslation
 import './Footer.css'; 

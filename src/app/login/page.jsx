@@ -45,7 +45,7 @@ const Login = () => {
       <div className="form_log_container">
         <div className="form_log">
           <form onSubmit={handleSubmit} className="">
-            <Image src={logo} alt="logo" />
+            <Image src={logo} alt="logo" width={100} height={100} />
             <Typography variant="h5" gutterBottom>
               Sign In
             </Typography>

@@ -1,5 +1,5 @@
 import React from 'react'
-import S1about_img from "../../../public/img/S1about_img.jpg"
+import S1about_img from "../../../public/img/S1about_img.webp"
 import Image from 'next/image'
 import {useTranslation} from 'react-i18next';
 
@@ -19,7 +19,7 @@ const S1_about = () => {
 
             <div className='col-lg-6'>
 
-            <Image className='S1about_img' src={S1about_img} loading='lazy' alt='S1about img'/>
+            <Image width={700} height={50} className='S1about_img' src={S1about_img} alt='S1about img'/>
             </div>
 
 

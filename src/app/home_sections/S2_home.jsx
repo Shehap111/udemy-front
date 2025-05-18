@@ -2,7 +2,7 @@
 import React, {useEffect, useState} from 'react'
 import Image from 'next/image';
 import Image1 from '../../../public/img/down-mark-line.webp'; 
-import Image2 from '../../../public/img/overfitting.png'; 
+import Image2 from '../../../public/img/overfitting.webp'; 
 import './home.css'
 import Link  from 'next/link';
 import {useSelector} from 'react-redux';
@@ -42,7 +42,7 @@ useEffect(() => {
 <div className="container">
     <div className="intro">
         <h3> Top Categories </h3>
-        <Image  loading="lazy" src={Image1} alt="Description" />  
+        <Image  loading="lazy" width={50} height={50} src={Image1} alt="Description" />  
     </div>          
 <div className="row catt_box_container">
 {categories.map((catt) => {

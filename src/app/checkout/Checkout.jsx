@@ -116,7 +116,7 @@ if (!user) {
         cartItems.map((course) => (
           <li key={course._id}>
             <h4>  {course.title[language]} - ${course.price} </h4>
-            <img src={course.image} alt={course.title[language]} />
+            <img src={course.image} width={200} height={200} alt={course.title[language]} />
           </li>
         ))
       ) : (

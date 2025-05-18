@@ -9,8 +9,8 @@ const IntroSections = (props) => {
           <div className='intro'>
                <h1>{ props.sectionName }</h1>
 <div className="shaps">
-          <Image className='intro_shap1' src={intro_shap_1} loading='lazy' alt='intro_shap_1'/>
-          <Image className='intro_shap2' src={intro_shap_2} loading='lazy' alt='intro_shap_2'/>
+          <Image className='intro_shap1' src={intro_shap_1} width={50} height={50} loading='lazy' alt='intro_shap_1'/>
+          <Image className='intro_shap2' src={intro_shap_2} width={50} height={50} loading='lazy' alt='intro_shap_2'/>
 </div>
           <ul>
               <li > <Link href={'/'}> Home </Link> </li>

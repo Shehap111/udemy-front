@@ -105,10 +105,6 @@
     border-bottom: 5px solid #FFAF00;
     border-right: 5px solid #FFAF00;
 }
-.right_box_container .leftbox .box img{
-    width: 50px !important;
-    height: 50px !important;
-}
 .right_box_container .box h5{
     font-size: 18px;
     margin-left: 10px !important;
@@ -150,14 +146,10 @@ animation: floatUpDown 3s ease-in-out infinite;
     justify-content: space-between;
 }
 .right_box_container .rightbox .box img {
-    width: 50px !important;
-    height: 50px !important;
     margin: auto;
     margin-bottom: 10px;
 }
-.right_box_container .rightbox .box .images img:first-of-type {
-    width: 120px !important;
-}
+
 .Image6{
     position: absolute;
     bottom: 100px;
@@ -266,29 +258,51 @@ animation: floatUpDown 3s ease-in-out infinite;
     
 }
 /* S2_home */
-.S2_home{
-padding: 70px 0;
+/* ---------- الأساسيات ---------- */
+.S2_home {
+    padding: 70px 0;
 }
-.S2_home .intro{
+
+.S2_home .intro {
     text-align: center;
     position: relative;
 }
-.S2_home .intro img{
+
+/* ---------- الصورة ---------- */
+.S2_home .intro img {
+    /* حجز المساحة لمنع CLS */
+    width: 150px;
+    /* ثابت */
+    height: auto;
+    /* يحافظ ع النسبة */
     position: absolute;
-    width: 0px !important;
-    left: calc(50% - 100px);
-    transition: all ease-in .3s !important;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    /* مخفية بحجم صفر */
+    opacity: 0;
+    /* وشفافة */
+
+    /* تحريك مخصّص وسريع */
+    transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+    will-change: transform, opacity;
+    /* تحسين الأداء */
 }
-.S2_home .intro span{
+
+/* ---------- تفعيل التأثير عند الـ hover ---------- */
+.S2_home:hover .intro img {
+    transform: translateX(-50%) scale(1);
+    /* ترجع لحجمها الطبيعي */
+    opacity: 1;
+}
+
+/* ---------- بقية النص ---------- */
+.S2_home .intro span {
     color: var(--secondColor);
     font-size: 18px;
     text-transform: uppercase;
 }
-.S2_home:hover .intro img{
-    width: 200px !important;
-    left: calc(50% - 100px);
-}
-.S2_home .intro h3{
+
+.S2_home .intro h3 {
     font-weight: 700;
     font-size: 52px;
 }

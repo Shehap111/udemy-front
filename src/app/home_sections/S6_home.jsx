@@ -35,7 +35,7 @@ return (
 <div className="intro">
     <span> {t('home_section_6.news_updates')} </span>
     <h3> {t('home_section_6.latest_news')} </h3>
-    <Image loading="lazy" src={Image1} alt="Description" />  
+    <Image loading="lazy" src={Image1} width={400} height={300} alt="Description" />  
 </div>
 
 <div className="row">

@@ -28,7 +28,7 @@ const { t } = useTranslation();
         <div className="navbar-content">
         {/* Logo */}
         <Link href="/" className="navbar-logo">
-          <Image src={logo} alt="Coursehab Logo" height={40} />
+          <Image src={logo} alt="Coursehab Logo" width={200} height={40}/>
         </Link>
 
         {/* Desktop Links */}

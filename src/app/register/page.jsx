@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
 <section className="login register">
 <div className="form_log_container">
 <div className="form_log">
-<Image src={logo} alt="logo" />
+<Image width={100} height={100} src={logo} alt="logo" />
 <Typography variant="h5" gutterBottom>Sign In</Typography>
 <Typography variant="body2" color="textSecondary" gutterBottom> Join us by creating a free account</Typography>            
     
